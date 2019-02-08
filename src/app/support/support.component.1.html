@@ -30,7 +30,7 @@
 			</mat-card-title>
 			<ng-container *ngIf="!isLogged()">
 				<mat-card-subtitle>
-					ℹ️ To become a Patron please login or transfer EOS to
+					ℹ️ To become a Patron please login or transfer UOS to
 					<a routerLink="/accounts/{{contract}}">{{contract}}</a>
 				</mat-card-subtitle>
 				<mat-card-actions>
@@ -41,7 +41,7 @@
 				<form class="ng-untouched ng-pristine ng-invalid">
 					<div class="input-group">
 						<div class="input-group">
-							<span class="input-group-addon">EOS</span>
+							<span class="input-group-addon">UOS</span>
 							<input aria-label="..." [(ngModel)]="amount" class="form-control ng-untouched ng-pristine ng-invalid" name="msg" placeholder="5"
 							 required type="text" [disabled]="!isLogged() || alive">
 						</div>

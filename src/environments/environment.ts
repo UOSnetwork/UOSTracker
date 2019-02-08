@@ -5,14 +5,15 @@
 
 export const environment = {
   production: false,
-  walletUrl: 'https://portal.telosgermany.io',
-  votingUrl: 'https://telos.eosx.io/tools/vote',
-  appName: 'Telos Testnet Explorer',
+  walletUrl: 'https://u.community',
+  votingUrl: 'https://u.community/governance',
+  appName: 'UOS u.community explorer',
   logoUrl: '/assets/logo.png',
-  blockchainUrl: 'https://testnet.eos.miami',
-  chainId: 'e17615decaecd202a365f4c029f206eee98511979de8a5756317e2469f2289e3',
+//  blockchainUrl: 'http://explorer.u.community:8888',
+  blockchainUrl: 'https://api-node-1.u.community:7888',
+  chainId: '61887243d4467f0061b462a63a3e40f3dce917ed7d7cc6a79ad9a1a3be7e5e1e',
   showAds: false,
   tokensUrl: 'https://raw.githubusercontent.com/eoscafe/eos-airdrops/master/tokens.json',
   tickerUrl: 'https://api.coinmarketcap.com/v2/ticker/1765/',
-  token: 'TLOS'
+  token: 'UOS'
 };

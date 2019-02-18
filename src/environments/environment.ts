@@ -7,7 +7,7 @@ export const environment = {
   production: false,
   walletUrl: 'http://wallet.uos.network',
   votingUrl: 'http://wallet.uos.network/manageVoting/',
-  appName: 'UOS u.community explorer',
+  appName: 'U°OS u.community explorer',
   logoUrl: '/assets/logo.png',
   blockchainUrl: 'http://explorer.u.community:8888',
 //  blockchainUrl: 'https://api-node-1.u.community:7888',

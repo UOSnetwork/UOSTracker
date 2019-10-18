@@ -42,11 +42,13 @@ export class SidenavComponent implements OnInit {
         link: '/transactions',
         name: this.translate.instant('Transactions')
       },
+      /*
       {
         icon: 'settings',
         link: '/settings',
         name: this.translate.instant('Settings')
       },
+      */
       {
         icon: 'account_balance_wallet',
         external: true,

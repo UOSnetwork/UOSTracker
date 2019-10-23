@@ -1,13 +1,13 @@
 export const environment = {
   production: true,
-  walletUrl: '{WALLET_URL}',
-  votingUrl: '{VOTING_URL}',
-  appName: '{APP_NAME}',
-  logoUrl: '{LOGO_URL}',
-  blockchainUrl: '{BLOCKCHAIN_URL}',
-  chainId: '{CHAIN_ID}',
-  showAds: '{SHOW_ADS}',
-  tokensUrl: '{TOKENS_URL}',
-  tickerUrl: '{TICKER_URL}',
-  token: '{TOKEN}'
+  walletUrl: 'https://u.community',
+  votingUrl: 'https://u.community/governance',
+  appName: 'U°OS Network Explorer',
+  logoUrl: '/assets/logo.png',
+  blockchainUrl: 'https://history.uos.network:7889',
+  chainId: '61887243d4467f0061b462a63a3e40f3dce917ed7d7cc6a79ad9a1a3be7e5e1e',
+  showAds: false,
+  tokensUrl: 'https://explorer.uos.network/tokens.json',
+  tickerUrl: 'https://api.coinmarketcap.com/v2/ticker/4563/',
+  token: 'UOS'
 };
